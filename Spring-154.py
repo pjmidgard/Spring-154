@@ -179,46 +179,39 @@ class compression:
                                 
                                 if i==1:
 
-                                    Extract1=0
-                                    Times_7=0
                                     
+                                    Extract1=0
                                     
 
                                     while Extract1!=1:
 
 
                                         import random
-
-
-                                        Extact=Equal_info_between_of_the_cirlce_of_the_file_2
-
-                                        cirlce_of_the_file=0
-
-
                                         between_of_the_cirlce_of_the_file=random.randint(0,(2**16)-1)
                                         Times_6=random.randint(0,(2**48)-1)
-                                        
-
+                                        Times_7=random.randint(0,(2**19)-1)
                         
-                                        Times_7+=Times_7
-                                        Times_8=Times_7
-                                        Combinate="0"+str(Times_7*8)+"b"
+                                        Times_7=Times_7*8
+                                        Times_8=random.randint(0,(2**Times_7)-1)
+                                        Combinate="0"+str(Times_7)+"b"
 
-                                       
+                                        
                                         Equal_info_between_of_the_cirlce_of_the_file2=""
                                         Equal_info_between_of_the_cirlce_of_the_file3=""
                                         Equal_info_between_of_the_cirlce_of_the_file4=""
 
-
+                                       
                                         Equal_info_between_of_the_cirlce_of_the_file2=format(between_of_the_cirlce_of_the_file,'016b')
                                         Equal_info_between_of_the_cirlce_of_the_file3=format(Times_6,'048b')
                                         Equal_info_between_of_the_cirlce_of_the_file4=format(Times_8,Combinate)
+
                                         
                                         Equal_info_between_of_the_cirlce_of_the_file_17=""
                                   
                                         Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file_2
                                         
                                         lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+
 
                                         add_bits=""
 
