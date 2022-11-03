@@ -431,7 +431,7 @@ class compression:
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[0:lenf6-Deep4]
                                         
                                                 
-                                                Number_of_the_file = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
+
                                                 
                                                 Hole_Number_information=(2**Deep5)-1
                                                 add_ones_together=Hole_Number_information
