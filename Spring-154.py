@@ -204,7 +204,7 @@ class compression:
                                         Times_8=Times_7
                                         Combinate="0"+str(Times_7*8)+"b"
 
-                                        Equal_info_between_of_the_cirlce_of_the_file1=""
+                                       
                                         Equal_info_between_of_the_cirlce_of_the_file2=""
                                         Equal_info_between_of_the_cirlce_of_the_file3=""
                                         Equal_info_between_of_the_cirlce_of_the_file4=""
