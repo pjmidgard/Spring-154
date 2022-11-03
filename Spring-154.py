@@ -211,7 +211,6 @@ class compression:
                                         Equal_info_between_of_the_cirlce_of_the_file2=format(between_of_the_cirlce_of_the_file,'016b')
                                         Equal_info_between_of_the_cirlce_of_the_file3=format(Times_6,'048b')
                                         Equal_info_between_of_the_cirlce_of_the_file4=format(Times_8,Combinate)
-
                                         
                                         Equal_info_between_of_the_cirlce_of_the_file_17=""
                                   
@@ -272,7 +271,7 @@ class compression:
                                                     
         
                                             if C==1 and T!=0:
-                                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file4
+                                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file4[Translate_info_Decimal_2:]
                                                     lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
                                                     Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-Deep4:lenf6-1]
                                                     Prime_Not=Equal_info_between_of_the_cirlce_of_the_file[lenf6-1:lenf6]
