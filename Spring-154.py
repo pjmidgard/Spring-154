@@ -1,3 +1,4 @@
+
 from time import time
 import os
 import binascii
@@ -180,6 +181,7 @@ class compression:
                                 if i==1:
 
                                     Extract1=0
+                                    Times_7=0
                                     
                                     
 
@@ -199,9 +201,9 @@ class compression:
                                         
                                         Times_7=random.randint(0,(2**25)-1)
                         
-                                        Times_7=Times_7*8
-                                        Times_8=random.randint(0,(2**Times_7)-1)
-                                        Combinate="0"+str(Times_7)+"b"
+                                        Times_7+=Times_7
+                                        Times_8=Times_7
+                                        Combinate="0"+str(Times_7*8)+"b"
 
                                         Equal_info_between_of_the_cirlce_of_the_file1=""
                                         Equal_info_between_of_the_cirlce_of_the_file2=""
@@ -272,7 +274,7 @@ class compression:
                                                     
         
                                             if C==1 and T!=0:
-                                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file4[Translate_info_Decimal_2:]
+                                                    Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file4
                                                     lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
                                                     Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-Deep4:lenf6-1]
                                                     Prime_Not=Equal_info_between_of_the_cirlce_of_the_file[lenf6-1:lenf6]
@@ -432,7 +434,7 @@ class compression:
                                         	
     
                                         if C==1 and T!=0:
-                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[Translate_info_Decimal_2:]
+                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
                                                 Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-Deep4:lenf6-1]
                                                 Prime_Not=Equal_info_between_of_the_cirlce_of_the_file[lenf6-1:lenf6]
