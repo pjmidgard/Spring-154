@@ -180,7 +180,7 @@ class compression:
                                 if i==1:
 
                                     Extract1=0
-                                    Times_7=-1
+                                    Times_7=0
                                     
                                     
 
@@ -198,7 +198,7 @@ class compression:
                                         between_of_the_cirlce_of_the_file=random.randint(0,(2**16)-1)
                                         Times_6=random.randint(0,(2**48)-1)
                                         
-                                        Times_7=random.randint(0,(2**25)-1)
+
                         
                                         Times_7+=Times_7
                                         Times_8=Times_7
@@ -273,18 +273,17 @@ class compression:
                                             if C==1 and T!=0:
                                                     Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file4
                                                     lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                                    Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-Deep4:lenf6-1]
-                                                    Prime_Not=Equal_info_between_of_the_cirlce_of_the_file[lenf6-1:lenf6]
+                                                    Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-Deep4:lenf6]
+                                                    Prime_Not=Equal_info_between_of_the_cirlce_of_the_file[lenf6:lenf6]
                                                     Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[0:lenf6-Deep4]
                                             
                                                     
-                                                    Number_of_the_file = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
-                                                    Number_add_plus_one_2 = int(Number_add_plus_one, 2)
-                                                    Prime_Not = int(Prime_Not, 2)
+
+                                                    
                                                     Hole_Number_information=(2**Deep5)-1
-                                                    add_ones_together=Hole_Number_information+Number_add_plus_one_2
+                                                    add_ones_together=Hole_Number_information
                                                     Number_of_the_file=Number_of_the_file*add_ones_together
-                                                    Number_of_the_file=Number_of_the_file+Prime_Not
+                                                    
                                            
                                         Times_6=Number_add_plus_one
                                         Number_add_plus_one=""
@@ -328,7 +327,7 @@ class compression:
                                             
                                                 if C==1 and T!=0:
      
-                                                    Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[3:]
+                                                    Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[2:]
                                                     lenf14=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                                     #print(lenf14)
                                                     lenf16=lenf14%8
@@ -431,25 +430,23 @@ class compression:
                                         if C==1 and T!=0:
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
-                                                Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-Deep4:lenf6-1]
-                                                Prime_Not=Equal_info_between_of_the_cirlce_of_the_file[lenf6-1:lenf6]
+                                                Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file[lenf6-Deep4:lenf6]
+                                                Prime_Not=Equal_info_between_of_the_cirlce_of_the_file[lenf6:lenf6]
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[0:lenf6-Deep4]
                                         
                                                 
                                                 Number_of_the_file = int(Equal_info_between_of_the_cirlce_of_the_file, 2)
-                                                Number_add_plus_one_2 = int(Number_add_plus_one, 2)
-                                                Prime_Not = int(Prime_Not, 2)
+                                                
                                                 Hole_Number_information=(2**Deep5)-1
-                                                add_ones_together=Hole_Number_information+Number_add_plus_one_2
+                                                add_ones_together=Hole_Number_information
                                                 Number_of_the_file=Number_of_the_file*add_ones_together
-                                                Number_of_the_file=Number_of_the_file+Prime_Not
+                                                
                                        
-                                    Times_6=Number_add_plus_one
-                                    Number_add_plus_one=""
+                                    
                                       
                                     #####################################################################################################################################################
                                    
-                                    Prime_Not=""
+                                    
                                     
                                     
                                     Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[2:]
@@ -486,7 +483,7 @@ class compression:
                                         
                                             if C==1 and T!=0:
  
-                                            	Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[3:]
+                                            	Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[2:]
                                             	lenf14=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                             	#print(lenf14)
                                             	lenf16=lenf14%8
