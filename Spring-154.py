@@ -180,7 +180,7 @@ class compression:
                                 if i==1:
 
                                     Extract1=0
-                                    Times_7=0
+                                    Times_7=-1
                                     
                                     
 
@@ -194,7 +194,7 @@ class compression:
 
                                         cirlce_of_the_file=0
 
-                                        cirlce_of_the_file=random.randint(0,7)
+
                                         between_of_the_cirlce_of_the_file=random.randint(0,(2**16)-1)
                                         Times_6=random.randint(0,(2**48)-1)
                                         
@@ -209,7 +209,7 @@ class compression:
                                         Equal_info_between_of_the_cirlce_of_the_file3=""
                                         Equal_info_between_of_the_cirlce_of_the_file4=""
 
-                                        Equal_info_between_of_the_cirlce_of_the_file1=format(cirlce_of_the_file,'03b')
+
                                         Equal_info_between_of_the_cirlce_of_the_file2=format(between_of_the_cirlce_of_the_file,'016b')
                                         Equal_info_between_of_the_cirlce_of_the_file3=format(Times_6,'048b')
                                         Equal_info_between_of_the_cirlce_of_the_file4=format(Times_8,Combinate)
@@ -245,10 +245,8 @@ class compression:
 
                                                     
 
-                                                    Translate_info_Decimal="00000"+Equal_info_between_of_the_cirlce_of_the_file1[0:3]
-                                                    Translate_info_Decimal_2 = int(Translate_info_Decimal, 2)
-                                                    if Translate_info_Decimal_2>7:
-                                                            Corrupted=1
+                                                    
+                                                    
                                                     
                                                     lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
 
@@ -351,7 +349,7 @@ class compression:
                                                     Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
 
                                                     if Extact==Equal_info_between_of_the_cirlce_of_the_file_17 and Continue==0:
-                                                        Equal_info_between_of_the_cirlce_of_the_file_17="00000"+Equal_info_between_of_the_cirlce_of_the_file1+Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+Equal_info_between_of_the_cirlce_of_the_file4
+                                                        Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+Equal_info_between_of_the_cirlce_of_the_file4
   
                                                         Extract1=1
                                                         
@@ -405,11 +403,9 @@ class compression:
                                     if C==1:
                                         if   Circle_times2==0:
 
-                                                Translate_info_Decimal=Equal_info_between_of_the_cirlce_of_the_file[0:8]
-                                                Translate_info_Decimal_2 = int(Translate_info_Decimal, 2)
-                                                if Translate_info_Decimal_2>7:
-                                                        Corrupted=1
-                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[8:]
+                                                
+                                                
+                                                
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
 
                                                 sda10=Equal_info_between_of_the_cirlce_of_the_file[0:16]
