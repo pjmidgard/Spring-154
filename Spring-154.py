@@ -329,12 +329,8 @@ class compression:
      
                                                     Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[2:]
                                                     lenf14=len(Equal_info_between_of_the_cirlce_of_the_file_17)
-                                                    #print(lenf14)
-                                                    lenf16=lenf14%8
-                                                    Continue=0
-                                                    if lenf16!=0 or lenf14>=((2**40)-1)*8 or Corrupted==1:
-
-                                                            Continue=1
+                                                    
+                                                    
                                                     
                                                     lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                                     add_bits=""
@@ -347,7 +343,7 @@ class compression:
                                                                     z=z+1
                                                     Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
 
-                                                    if Extact==Equal_info_between_of_the_cirlce_of_the_file_17 and Continue==0:
+                                                    if Extact==Equal_info_between_of_the_cirlce_of_the_file_17:
                                                        Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+Equal_info_between_of_the_cirlce_of_the_file4
   
                                                        Extract1=1
@@ -486,11 +482,7 @@ class compression:
                                             	Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[2:]
                                             	lenf14=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                             	#print(lenf14)
-                                            	lenf16=lenf14%8
-                                            	if lenf16!=0 or lenf14>=((2**40)-1)*8 or Corrupted==1:
 
-                                            		print("file corrupted")
-                                            		raise SystemExit
                                             		
                                             	
                                             	lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
