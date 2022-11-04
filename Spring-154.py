@@ -166,7 +166,7 @@ class compression:
                                             z=z+1
 
                                     Equal_info_between_of_the_cirlce_of_the_file_2=sda
-                                    Extract=Equal_info_between_of_the_cirlce_of_the_file_2
+                                    Extact=Equal_info_between_of_the_cirlce_of_the_file_2
 
                                     lenf3=len(Equal_info_between_of_the_cirlce_of_the_file_2)
                                 lenf2=len(Equal_info_between_of_the_cirlce_of_the_file_2)
