@@ -183,9 +183,9 @@ class compression:
 
                                     
                                     Extract1=0
-                                    Times_10=0
-                                    Times_7=0
-                                    between_of_the_cirlce_of_the_file5=0
+                                    Times_10=1
+                                    Times_7=1
+                                    between_of_the_cirlce_of_the_file5=1
                                     
 
                                     while Extract1!=1:
@@ -196,11 +196,11 @@ class compression:
 
                                             if between_of_the_cirlce_of_the_file5==(2**16)-1:
                                                 Times_10+=1
-                                                between_of_the_cirlce_of_the_file5=0
+                                                between_of_the_cirlce_of_the_file5=1
                                             if Times_10==(2**48)-1:
                                                 Times_7+=1
-                                                Times_10=0
-                                                between_of_the_cirlce_of_the_file5=0
+                                                Times_10=1
+                                                between_of_the_cirlce_of_the_file5=1
                                                 
                                             
                                             
@@ -310,7 +310,7 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file_17
                                            
     
-                                            if i==2:
+                                            if i==1:
                                                 Make_togher=""
                                                 Make_togher=Times_6
                                                 Number_add_plus_one=""
