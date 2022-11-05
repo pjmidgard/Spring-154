@@ -185,7 +185,7 @@ class compression:
                                     Extract1=0
                                     Times_10=0
                                     Times_7=0
-                                    between_of_the_cirlce_of_the_file5=0
+                                    between_of_the_cirlce_of_the_file5=-1
                                     
 
                                     while Extract1!=1:
