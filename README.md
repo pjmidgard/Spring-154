@@ -3,7 +3,7 @@ Program
 
 Compression Quantum Python software
 
-Algorithm Program: Combinate all Division Repeat this many times. The number must be two n like this 2 ** n. E.g.: 32 bits 2 ** X+2+1 and plus the same bits of long of the times: times (2**32)-1. 0-65535 bits and Times the same. Deep: X + 25 bits. E.g.
+Algorithm Bombs: Combinate all Division Repeat this many times. The number must be two n like this 2 ** n. E.g.: 32 bits 2 ** X+2+1 and plus the same bits of long of the times: times (2**32)-1. 0-65535 bits and Times the same. Deep: X + 25 bits. E.g.
 
 Deep: 7
 
