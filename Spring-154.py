@@ -300,7 +300,7 @@ class compression:
                                                 if len (Equal_info_between_of_the_cirlce_of_the_file)!=0:
                         
                                                                                                     
-                                                    Number_of_the_file=int(Equal_info_between_of_the_cirlce_of_the_file, 2)
+                                                    Number_of_the_file=int(Equal_info_between_of_the_cirlce_of_the_file4, 2)
 
                                                 else:
                                                     Number_of_the_file=0
