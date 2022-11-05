@@ -464,7 +464,7 @@ class compression:
                                                     Number_of_the_file=int(Equal_info_between_of_the_cirlce_of_the_file, 2)
 
                                                 else:
-                                                                                                    Number_of_the_file=0
+                                                    Number_of_the_file=0
                                                                                                     
                                                 Hole_Number_information=(2**Deep5)-1
 
