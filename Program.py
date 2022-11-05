@@ -229,9 +229,13 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file3=format(Times_10,'016b')
                                             Equal_info_between_of_the_cirlce_of_the_file4=format(Times_8,Combinate)
                                             if Equal_info_between_of_the_cirlce_of_the_file4[0:8]=="00000000":
-                                                Info=Equal_info_between_of_the_cirlce_of_the_file4[8:]
+                                                if len(Equal_info_between_of_the_cirlce_of_the_file4)==0:
+                                                    Info=Equal_info_between_of_the_cirlce_of_the_file4[8:]
+                                                else:
+                                                        Info=Equal_info_between_of_the_cirlce_of_the_file4
                                             else:
                                                 Info=Equal_info_between_of_the_cirlce_of_the_file4
+                                           
                                                 
                                                 
                                             Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file4
