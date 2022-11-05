@@ -231,7 +231,7 @@ class compression:
                                             if Equal_info_between_of_the_cirlce_of_the_file4[0:8]=="00000000":
                                                 Info=Equal_info_between_of_the_cirlce_of_the_file4[8:]
                                             else:
-                                                                                                Info=Equal_info_between_of_the_cirlce_of_the_file4
+                                                Info=Equal_info_between_of_the_cirlce_of_the_file4
                                                 
                                                 
                                             Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file4
