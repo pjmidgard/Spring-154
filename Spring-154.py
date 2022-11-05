@@ -185,7 +185,7 @@ class compression:
                                     Extract1=0
                                     Times_10=0
                                     Times_7=0
-                                    between_of_the_cirlce_of_the_file5=26
+                                    between_of_the_cirlce_of_the_file5=-1
                                     
 
                                     while Extract1!=1:
@@ -204,7 +204,7 @@ class compression:
                                             if Times_10==(2**48)-1:
                                                 Times_7+=1
                                                 Times_10=0
-                                                between_of_the_cirlce_of_the_file5=26
+                                                between_of_the_cirlce_of_the_file5=0
                                             
                                                 
                                             
@@ -297,7 +297,8 @@ class compression:
                                                         Number_add_plus_one=Equal_info_between_of_the_cirlce_of_the_file4[lenf6-Deep4:lenf6]
                                                         Prime_Not=Equal_info_between_of_the_cirlce_of_the_file4[lenf6:lenf6]
                                                         Equal_info_between_of_the_cirlce_of_the_file4=Equal_info_between_of_the_cirlce_of_the_file4[0:lenf6-Deep4]
-                                                if len (Equal_info_between_of_the_cirlce_of_the_file)!=0:
+                                                       
+                                                if len (Equal_info_between_of_the_cirlce_of_the_file4)!=0:
                         
                                                                                                     
                                                     Number_of_the_file=int(Equal_info_between_of_the_cirlce_of_the_file4, 2)
