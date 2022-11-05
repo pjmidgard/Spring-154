@@ -228,15 +228,9 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file2=format(between_of_the_cirlce_of_the_file5,'016b')
                                             Equal_info_between_of_the_cirlce_of_the_file3=format(Times_10,'016b')
                                             Equal_info_between_of_the_cirlce_of_the_file4=format(Times_8,Combinate)
-                                            if Equal_info_between_of_the_cirlce_of_the_file4[0:8]=="00000000":
-                                                if len(Equal_info_between_of_the_cirlce_of_the_file4)==0:
-                                                    Info=Equal_info_between_of_the_cirlce_of_the_file4[8:]
-                                                else:
-                                                        Info=Equal_info_between_of_the_cirlce_of_the_file4
-                                            else:
-                                                Info=Equal_info_between_of_the_cirlce_of_the_file4
-                                           
-                                                
+                                            
+                                            Info=Equal_info_between_of_the_cirlce_of_the_file4
+                                                                                            
                                                 
                                             Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file4
     
@@ -350,7 +344,7 @@ class compression:
                                                 if  Circle_times2==T:
                                                            
                                                     if C==1 and T==0:
-                                                        Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file4
+                                                        Equal_info_between_of_the_cirlce_of_the_file_17=sda
                                                         lenf=len(Equal_info_between_of_the_cirlce_of_the_file_17)
                                                         add_bits=""
                                                         count_bits=8-lenf%8
@@ -380,7 +374,7 @@ class compression:
                                                                         z=z+1
                                                         Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
                                                                                          
-                                                    if Extact==Equal_info_between_of_the_cirlce_of_the_file_17:
+                                                if Extact==Equal_info_between_of_the_cirlce_of_the_file_17:
                                                            Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+Info
       
                                                            Extract1=1
