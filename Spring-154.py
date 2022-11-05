@@ -200,7 +200,7 @@ class compression:
 
                                             if between_of_the_cirlce_of_the_file5==(2**16)-1:
                                                 Times_10+=1
-                                                between_of_the_cirlce_of_the_file5=26
+                                                between_of_the_cirlce_of_the_file5=0
                                             if Times_10==(2**48)-1:
                                                 Times_7+=1
                                                 Times_10=0
