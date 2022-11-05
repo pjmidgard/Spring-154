@@ -454,8 +454,9 @@ class compression:
                                         if C==1 and T!=0:
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
+                                                Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[0:lenf6-Deep4]
 
-                                                   Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[0:lenf6-Deep4]
+                                                   
                                                 if len (Equal_info_between_of_the_cirlce_of_the_file)!=0:
                         
                                                                                                     
