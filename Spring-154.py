@@ -77,7 +77,7 @@ class compression:
                     Equal_info_between_of_the_cirlce_of_the_file=""
                     Equal_info_between_of_the_cirlce_of_the_file_2=""
 
-                    Prime_Not=""
+                  
                     Times_6=""
 
                     Translate_info_Decimal=""
@@ -247,12 +247,11 @@ class compression:
                                             sda10=""
                                             Translate_info_Decimal=""
                                           
-                                            Number_add_plus_one=""
-                                            Prime_Not=""
+                                           
                                             Times_6=""
                                         
                                             Number_of_the_file=0
-                                            Prime_Not=0
+                                          
     
                                             C=1
                                          
@@ -317,7 +316,7 @@ class compression:
                                               
                                             #####################################################################################################################################################
                                            
-                                            Prime_Not=""
+                                            
                                             
                                             
                                             Equal_info_between_of_the_cirlce_of_the_file_17=bin(Number_of_the_file)[2:]
@@ -329,7 +328,7 @@ class compression:
                                             if i==1:
                                                 Make_togher=""
                                                 Make_togher=Times_6
-                                                Number_add_plus_one=""
+                                                
                                                 add_bits=""
                                                 if C==1 and T!=0:
                                                         Circle_times2=Circle_times2+1
@@ -416,11 +415,11 @@ class compression:
                                     Translate_info_Decimal=""
                                   
                                     Number_add_plus_one=""
-                                    Prime_Not=""
+                                  
                                     Times_6=""
                                 
                                     Number_of_the_file=0
-                                    Prime_Not=0
+                                  
 
                                     
                                  
