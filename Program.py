@@ -228,6 +228,12 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file2=format(between_of_the_cirlce_of_the_file5,'016b')
                                             Equal_info_between_of_the_cirlce_of_the_file3=format(Times_10,'016b')
                                             Equal_info_between_of_the_cirlce_of_the_file4=format(Times_8,Combinate)
+                                            if Equal_info_between_of_the_cirlce_of_the_file4[0:8]=="00000000":
+                                                Info=Equal_info_between_of_the_cirlce_of_the_file4[8:]
+                                            else:
+                                                                                                Info=Equal_info_between_of_the_cirlce_of_the_file4
+                                                
+                                                
                                             Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file4
     
                                             
@@ -371,7 +377,7 @@ class compression:
                                                         Equal_info_between_of_the_cirlce_of_the_file_17=add_bits+Equal_info_between_of_the_cirlce_of_the_file_17
                                                                                          
                                                     if Extact==Equal_info_between_of_the_cirlce_of_the_file_17:
-                                                           Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+Equal_info_between_of_the_cirlce_of_the_file4
+                                                           Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+Info
       
                                                            Extract1=1
                                                         
