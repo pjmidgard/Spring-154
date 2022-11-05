@@ -189,9 +189,13 @@ class compression:
                                     
 
                                     while Extract1!=1:
+                                        
+                                        
 
 
                                          
+                                            
+                                            Circle_times2=0
                                             between_of_the_cirlce_of_the_file5+=1
 
                                             if between_of_the_cirlce_of_the_file5==(2**16)-1:
@@ -388,6 +392,7 @@ class compression:
                                             return print(x3)
                                     		
                                 if i==2:
+                                    Circle_times2=0
 
                                     Equal_info_between_of_the_cirlce_of_the_file_17=""
                               
