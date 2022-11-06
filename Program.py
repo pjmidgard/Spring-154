@@ -168,6 +168,8 @@ class compression:
 
                                     Equal_info_between_of_the_cirlce_of_the_file_2=sda
                                     Extact=Equal_info_between_of_the_cirlce_of_the_file_2
+                                    A=int(Extact,2)
+                                    
 
                                     lenf3=len(Equal_info_between_of_the_cirlce_of_the_file_2)
                                 lenf2=len(Equal_info_between_of_the_cirlce_of_the_file_2)
@@ -183,7 +185,7 @@ class compression:
 
                                     
                                     Extract1=0
-                                    Times_10=0
+                                    Times_10=1
                                     Times_7=0
                                     between_of_the_cirlce_of_the_file5=-1
                                     
@@ -203,7 +205,7 @@ class compression:
                                                 between_of_the_cirlce_of_the_file5=0
                                             if Times_10==(2**16)-1:
                                                 Times_7+=1
-                                                Times_10=0
+                                                Times_10=1
                                                 between_of_the_cirlce_of_the_file5=0
                                             
                                                 
@@ -230,6 +232,16 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file4=format(Times_8,Combinate)
                                             
                                             Info=Equal_info_between_of_the_cirlce_of_the_file4
+                                            B=int(Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+Info,2)
+                                            if B>A:
+                                                Times_10=0
+                                            
+                                               
+                                           
+                                            Equal_info_between_of_the_cirlce_of_the_file2=format(between_of_the_cirlce_of_the_file5,'016b')
+                                            Equal_info_between_of_the_cirlce_of_the_file3=format(Times_10,'016b')
+                                            Equal_info_between_of_the_cirlce_of_the_file4=format(Times_8,Combinate)                                         
+                                            
                                                                                             
                                                 
                                             Equal_info_between_of_the_cirlce_of_the_file_2=Equal_info_between_of_the_cirlce_of_the_file4
@@ -379,7 +391,7 @@ class compression:
       
                                                     Extract1=1
 
-                                                else:
+                                                if Extact==Equal_info_between_of_the_cirlce_of_the_file_17 and T==0:
                                                     Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+sda
                                                     Extract1=1
                                                     
