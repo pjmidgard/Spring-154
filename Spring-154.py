@@ -1,8 +1,6 @@
 import os
-import array 
 from qiskit.circuit import QuantumCircuit, QuantumCircuit, Parameter, ParameterVector
 from time import time
-import os
 import binascii
 import math
 import os.path
