@@ -42,6 +42,13 @@ class compression:
                     else:
                             print('Path is not exists!')
                             raise SystemExit
+
+                    x=0
+                    x1=0
+                    x2=0
+                    n=0
+                    x = time()
+                    
                             
                     
                     namem=""
@@ -186,7 +193,7 @@ class compression:
                                 if i==1:
 
                                     from qiskit.circuit import QuantumCircuit, Parameter, ParameterVector
-                                    x = ParameterVector("x", 4000)
+                                    y = ParameterVector("x", 4000)
                                     circuit = QuantumCircuit(4000)
 
                                     
@@ -422,8 +429,9 @@ class compression:
                                                 f2.write(width_bits3)
                                                     
                                             
-                                            x3=0.0
-                                            
+                                            x2 = time()
+                                            x3=x2-x
+                                            xs=float(x3)
                                             return print(x3)
                                     		
                                 if i==2:
@@ -573,12 +581,15 @@ class compression:
                                             add_bitszzza=""
                                             add_bitszs=""
                                             Equal_info_between_of_the_cirlce_of_the_file_2=Times_6
-                                            
+                                             
                                             with open(nameas, "wb") as f2:
                                             
                                               
                                             	f2.write(width_bits3)
-                                            x3=0.0
+
+                                            x2 = time()
+                                            x3=x2-x
+                                            xs=float(x3)
                                             return print(x3)
    
 d=compression()
