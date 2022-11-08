@@ -9,6 +9,7 @@ name=""
 add_bits=""
 Make_togher=""
 
+
 namez = input("c,  compress or e, extract? ")
 
 #@Author Jurijus Pacalovas
@@ -84,11 +85,12 @@ class compression:
 
                     D=0
 
-                    x=0
-                    x1=0
-                    x2=0
-                    n=0
-                    x = time()
+                    
+                    
+                        
+
+                    
+                                       
                     
 
                     with open(nameas, "w") as f4:
@@ -183,6 +185,10 @@ class compression:
                                 
                                 if i==1:
 
+                                    from qiskit.circuit import QuantumCircuit, Parameter, ParameterVector
+                                    x = ParameterVector("x", 4000)
+                                    circuit = QuantumCircuit(4000)
+
                                     
                                     Extract1=0
                                     Times_10=1
@@ -194,17 +200,19 @@ class compression:
                                         
                                         
 
-
-                                            from qiskit.circuit import QuantumCircuit, QuantumCircuit, Parameter, ParameterVector
-                                            x = ParameterVector("",4000)
-                                            circuit = QuantumCircuit(4000)
-                                            circuit.rx(between_of_the_cirlce_of_the_file5,Times_10,Times_7)
+                                           
+                                            
+                                           
+                                            
                                             Circle_times2=0
+                                            circuit.rx(between_of_the_cirlce_of_the_file5,0)
                                             between_of_the_cirlce_of_the_file5+=1
                                             if between_of_the_cirlce_of_the_file5==(2**16)-1:
+                                                circuit.rx(Times_10,0)
                                                 Times_10+=1
                                                 between_of_the_cirlce_of_the_file5=0
                                             if Times_10==(2**16)-1:
+                                                circuit.rx(Times_7,0)
                                                 Times_7+=1
                                                 Times_10=1
                                                 between_of_the_cirlce_of_the_file5=0
@@ -413,9 +421,9 @@ class compression:
                                             with open(nameas, "wb") as f2:
                                                 f2.write(width_bits3)
                                                     
-                                            x2 = time()
-                                            x3=x2-x
-                                            xs=float(x3)
+                                            
+                                            x3=0.0
+                                            
                                             return print(x3)
                                     		
                                 if i==2:
@@ -565,14 +573,12 @@ class compression:
                                             add_bitszzza=""
                                             add_bitszs=""
                                             Equal_info_between_of_the_cirlce_of_the_file_2=Times_6
-                                             
+                                            
                                             with open(nameas, "wb") as f2:
                                             
                                               
                                             	f2.write(width_bits3)
-                                            x2 = time()
-                                            x3=x2-x
-                                            xs=float(x3)
+                                            x3=0.0
                                             return print(x3)
    
 d=compression()
