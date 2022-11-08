@@ -1,5 +1,4 @@
 import os
-from qiskit.circuit import QuantumCircuit, QuantumCircuit, Parameter, ParameterVector
 from time import time
 import binascii
 import math
@@ -196,9 +195,9 @@ class compression:
                                         
 
 
-
-                                            x = ParameterVector("",(2**16)-1)
-                                            circuit = QuantumCircuit((2**16)-1)
+                                            from qiskit.circuit import QuantumCircuit, QuantumCircuit, Parameter, ParameterVector
+                                            x = ParameterVector("",4000)
+                                            circuit = QuantumCircuit(4000)
                                             circuit.rx(between_of_the_cirlce_of_the_file5,Times_10,Times_7)
                                             Circle_times2=0
                                             between_of_the_cirlce_of_the_file5+=1
