@@ -9,4 +9,5 @@ Deep: 7
 
 7+25=32 bits.
 
-This program is for Quantum Supercomputers
+This program is for Quantum Supercomputers 
+4000 cubits
