@@ -436,7 +436,7 @@ class compression:
                                                     Extract1=1
 
                                                 if Extact==Equal_info_between_of_the_cirlce_of_the_file_17 and T==0:
-                                                    Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+sda
+                                                    Equal_info_between_of_the_cirlce_of_the_file_17=Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+non_integers2+sda
                                                     Extract1=1
                                                     
                                                         
