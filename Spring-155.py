@@ -528,7 +528,7 @@ class compression:
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
                                                 Equal_info_between_of_the_cirlce_of_the_file=Equal_info_between_of_the_cirlce_of_the_file[0:lenf6-Deep4]
-                                                non_integers=int(non_integers,2)
+                                                non_integers2=int(non_integers,2)
                                                 
                                                
                                                 
@@ -550,7 +550,7 @@ class compression:
                                                 
                                                 Hole_Number_information=(2**Deep5)-1   
                                                 add_ones_together=Hole_Number_information
-                                                non_integers3=str(Number)+"."+str(non_integers)
+                                                non_integers3=str(Number)+"."+str(2non_integers)
                                                 add_ones_together=float(non_integers3)
                                               
                                                 Number_of_the_file=Number_of_the_file**add_ones_together
