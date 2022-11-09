@@ -227,7 +227,7 @@ class compression:
                                                 
                                                 between_of_the_cirlce_of_the_file5=0
                                                 
-                                            if Times_10>=(2**16)-1
+                                            if Times_10>=(2**16)-1:
                                                 Times_10=(2**16)-1
                                             
                                                 
