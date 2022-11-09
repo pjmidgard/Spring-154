@@ -218,18 +218,20 @@ class compression:
                                             Circle_times2=0
                                             circuit.rx(between_of_the_cirlce_of_the_file5,0)
                                             between_of_the_cirlce_of_the_file5+=1
-                                            if between_of_the_cirlce_of_the_file5==(2**16)-1:
+                                            if between_of_the_cirlce_of_the_file5>=(2**16)-1:
                                                 circuit.rx(Times_10,0)
                                                 Times_10+=1
                                                 
                                                 between_of_the_cirlce_of_the_file5=0
                                                 
-                                            if Times_10==(2**16)-1:
+                                            if Times_10>=(2**16)-1
+                                                Times_10=(2**16)-1
                                             
-                                                Times_10=1
-                                            if Times_10==(2**16)-1 or non_integers==(2**24)-1:
+                                                
+                                            if Times_10==(2**16)-1 and non_integers==(2**24)-1:
                                                 circuit.rx(Times_7,0)
                                                 Times_7+=1
+                                                Times_10=1
                                                 
                                             
                                             circuit.rx(non_integers,0)   
