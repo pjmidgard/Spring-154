@@ -269,7 +269,7 @@ class compression:
                                             Info=Equal_info_between_of_the_cirlce_of_the_file4
                                             
                                             
-                                            B=int(Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+non_integers2+Info,2)
+                                            B=int(Equal_info_between_of_the_cirlce_of_the_file2+Equal_info_between_of_the_cirlce_of_the_file3+non_integers2+non_integers2+Info,2)
                                             if B>A:
                                                 Times_10=0
                                             
