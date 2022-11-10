@@ -237,7 +237,7 @@ class compression:
                                                 circuit.rx(Times_7,0)
                                               
                                                 Times_7+=1
-                                                print(Times_7)
+                                           
                                                 Times_10=1
                                                 non_integers=0
 
