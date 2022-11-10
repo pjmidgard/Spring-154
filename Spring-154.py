@@ -254,9 +254,9 @@ class compression:
                                             
                                                
                                            
-                                            Equal_info_between_of_the_cirlce_of_the_file2=format(between_of_the_cirlce_of_the_file5,'016b')
+                                            
                                             Equal_info_between_of_the_cirlce_of_the_file3=format(Times_10,'016b')
-                                            Equal_info_between_of_the_cirlce_of_the_file4=format(Times_8,Combinate)                                         
+                                                                                     
                                             
                                                                                             
                                                 
