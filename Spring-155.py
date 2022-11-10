@@ -219,6 +219,9 @@ class compression:
                                             
                                             Circle_times2=0
                                             
+                                          
+                                            
+                                            circuit.rx(between_of_the_cirlce_of_the_file5,0) 
                                             between_of_the_cirlce_of_the_file5+=1
                                             if between_of_the_cirlce_of_the_file5>=(2**16)-1:
                                                circuit.rx(Times_10,0)  
