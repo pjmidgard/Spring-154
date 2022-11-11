@@ -91,6 +91,7 @@ class compression:
                     Translate_info_Decimal=""
 
                     D=0
+                    Circle_times2=0
 
                     
                     
@@ -472,7 +473,7 @@ class compression:
                                             return print(x3)
                                     		
                                 if i==2:
-                                    Circle_times2=0
+                            
 
                                     Equal_info_between_of_the_cirlce_of_the_file_17=""
                               
