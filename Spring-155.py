@@ -217,7 +217,7 @@ class compression:
                                             if non_integers>=(2**24)-1:
                                                 non_integers=(2**24)-1
                                             
-                                            Circle_times2=0
+                              
                                             
                                           
                                             
