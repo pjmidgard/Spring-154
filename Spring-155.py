@@ -553,7 +553,12 @@ class compression:
    
                                              
 
-
+                                                Hole_Number_information=(2**Deep5)
+                                                add_ones_together=Hole_Number_information
+                                                non_integers3=str(Number_of_the_file)+"."+str(non_integers)
+                                                add_ones_together=float(non_integers3)
+                                                Number_of_the_file=Number_of_the_file**add_ones_together
+                                                Number_of_the_file=int(Number_of_the_file) 
 
                                                       
                                                 
