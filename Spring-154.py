@@ -484,26 +484,7 @@ class compression:
                                             Equal_info_between_of_the_cirlce_of_the_file=sda
                                            
                                         if   Circle_times2==0:
-                                            
-                                            
-                                                                          
-            
-
-                                                
-                                                
-                                                
-                                                
-                                                
-                                            
-
-
-
-
-
-
-
-
-                                                
+                                
                                                 lenf6=len(Equal_info_between_of_the_cirlce_of_the_file)
                                                 sda10=Equal_info_between_of_the_cirlce_of_the_file[0:48]
                                                 #print(Equal_info_between_of_the_cirlce_of_the_file)
