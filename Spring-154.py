@@ -230,9 +230,9 @@ class compression:
                                                 
                                                 circuit.rx(Times_7,0)
                                                 Times_7+=1
-                                                Times_10=1
+                                               
                                                 Times_11=0
-                                                N_5=0
+                                             
                                             
                                              
                                                                                     
